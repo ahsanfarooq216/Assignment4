@@ -11,7 +11,7 @@ namespace Q7Leaders
             int[] arr1 = { 16, 17, 4, 3, 5, 2 };
             Leaders(arr1); //2 5 17
             int[] arr2 = { 7, 1, 2, 3, 5, 6, 6, 4 };
-            Leaders(arr2); //2
+            Leaders(arr2); //4 6 7
             int[] arr3 = { 19 };
             Leaders(arr3); //19
         }
