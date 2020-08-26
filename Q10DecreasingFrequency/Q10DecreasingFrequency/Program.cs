@@ -12,10 +12,10 @@ namespace Q10DecreasingFrequency
         static void Main(string[] args)
         {
             int [] arr1 = { 2, 5, 2, 6, -1, 99, 5, 8, 8, 8 };
-            SortByFrequency(arr1);
+            DecreasingFrequency(arr1);
         }
 
-        public static void SortByFrequency(int [] a)
+        public static void DecreasingFrequency(int [] a)
         {
             var table = new Dictionary<int, int>();
             foreach (var num in a)
